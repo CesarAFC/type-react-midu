@@ -13,6 +13,24 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+ul, h4 {
+  margin: 0;
+  padding: 0;
+}
+img {
+  border-radius: 200px;
+  height: auto;
+  width: 50px;
+}
+
+ul li {
+  border-radius: 4px;
+  border: 1px solid #eee;
+  list-style: none;
+  margin-bottom: 16px;
+  max-width: 320px;
+  padding: 8px 32px;
+}
 
 a {
   font-weight: 500;
